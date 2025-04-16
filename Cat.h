@@ -11,7 +11,7 @@ class Cat : public Animal {
             return Animal::GetAge() * 5;
         }
         emp::Ptr<Animal> Reproduce() {
-            return new Dog(0); //assuming it should have the same number of spots as parent
+            return new Cat(0); 
         }
 
 };

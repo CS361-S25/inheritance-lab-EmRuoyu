@@ -15,5 +15,5 @@ int main() {
     std::cout << population[1]->GetType() << std::endl;
     std::cout << population[0].DynamicCast<Dog>()->GetSpots() << std::endl;
     population.push_back(new Cat(4));
-    std::cout << population[2]->GetType() << std::endl;
+    std::cout << population[2]->GetAge() << std::endl;
 }
